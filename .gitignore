@@ -1,0 +1,77 @@
+# ==============================================================================
+# PyTorch and Machine Learning Artifacts
+# ==============================================================================
+# Model weights and checkpoints (can be very large)
+*.pt
+*.pth
+*.pkl
+*.h5
+*.onnx
+*.pb
+
+# Datasets and local downloads
+data/
+datasets/
+*.csv
+*.json
+*.parquet
+
+# Training logs and visualizations
+lightning_logs/
+tensorboard/
+*.log
+wandb/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ==============================================================================
+# Standard Python & Environments
+# ==============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==============================================================================
+# Security & Environments
+# ==============================================================================
+# Local environment variables containing API keys / tokens
+.env
+.envrc
+.secrets
+
+# ==============================================================================
+# OS & IDEs
+# ==============================================================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.cursor/
